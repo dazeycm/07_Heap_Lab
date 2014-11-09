@@ -26,8 +26,8 @@ Questions
 - 10.2 - 9 17 16 19 26 50 55 55 93 69 32
 
 #### 3. Exercise 10.4 from http://opendatastructures.org/ods-cpp/10_3_Discussion_Exercises.html
-The child can be found using the equation d * i + number of which child you want (1 for far left, 2 for second... d for far right)
-The parent can be found using the equation (i - 1)/d
+- The child can be found using the equation d * i + number of which child you want (1 for far left, 2 for second... d for far right)
+- The parent can be found using the equation (i - 1)/d
 
 #### 4. What is one question that confused you about this exercise, or one piece of advice you would share with students next semester?
 
