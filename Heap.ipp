@@ -23,7 +23,15 @@ Heap<Pri, T>::~Heap(){
 
 template<class Pri, class T>
 void Heap<Pri, T>::grow(){
-	//TODO
+	std::pair<Pri, T>* newArr = new std::pair<Pri, T>[arrSize * 2];
+	arrSize *= 2;
+
+	for (int i = 0; i < numItems; i++)	{
+		newArr[i] = backingArray[i];
+	}
+
+	backingArray = newArr;
+
 }
 
 template<class Pri, class T>
@@ -76,9 +84,6 @@ void Heap<Pri, T>::trickleDown(unsigned long index){
 
 		index = j;
 	} while (index <= 0);
-
-
-
 	
 }
 
