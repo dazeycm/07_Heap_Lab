@@ -22,8 +22,8 @@ Questions
 2. Memory isn't being spilled all over the place.
 
 #### 2. Exercises 10.1 and 10.2 from http://opendatastructures.org/ods-cpp/10_3_Discussion_Exercises.html
-10.1 - 3 9 4 17 26 8 6 19 69 32 93 55 50 16 7
-10.2 - 9 17 16 19 26 50 55 55 93 69 32
+- 10.1 - 3 9 4 17 26 8 6 19 69 32 93 55 50 16 7
+- 10.2 - 9 17 16 19 26 50 55 55 93 69 32
 
 #### 3. Exercise 10.4 from http://opendatastructures.org/ods-cpp/10_3_Discussion_Exercises.html
 The child can be found using the equation d * i + number of which child you want (1 for far left, 2 for second... d for far right)
