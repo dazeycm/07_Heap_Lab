@@ -66,7 +66,7 @@ void Heap<Pri, T>::trickleDown(unsigned long index){
 
 		if (r < numItems && backingArray[r].first < backingArray[index].first)	{
 			int l = 2 * index + 1;
-			if (backingArray[l] < backingArray[r])	{
+			if (backingArray[l].first < backingArray[r].first)	{
 				j = l;
 			}
 			else {
