@@ -29,7 +29,7 @@ void Heap<Pri, T>::grow(){
 	for (int i = 0; i < numItems; i++)	{
 		newArr[i] = backingArray[i];
 	}
-
+	delete[] backingArray;
 	backingArray = newArr;
 
 }
